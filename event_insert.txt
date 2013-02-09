@@ -1,0 +1,40 @@
+Event event = null;
+for (Integer i = 0; i < 100; ++i) {
+	insert new Event(Subject='Test', DurationInMInutes=60, ActivityDateTime=DateTime.now());
+}
+
+Event[] events = new Event[]{};
+for (Integer i = 0; i < 300; ++i) {
+	events.add(new Event(Subject='Test',
+						 DurationInMInutes=60,
+						 ActivityDateTime=DateTime.now()));
+}
+insert events;
+
+Event[] events = new Event[]{};
+for (Integer i = 0; i < 150; ++i) {
+	events.add(new Event(Subject='Test',
+						 DurationInMInutes=60,
+						 ActivityDateTime=DateTime.now(),
+						 IsRecurrence=true,
+						 RecurrenceStartDateTime=DateTime.now(),
+						 RecurrenceType='RecursDaily',
+						 RecurrenceInterval=1,
+						 RecurrenceEndDateOnly=Date.today().addDays(4)));
+}
+for (Event event : events) {
+	insert event;
+}
+
+Event[] events = [SELECT Id FROM Event];
+delete events;
+
+Event[] childEvents = [SELECT Id FROM Event WHERE isDeleted = false AND isRecurrence = false];
+delete childEvents;
+Event[] parentEvents = [SELECT Id FROM Event WHERE isDeleted = false AND isRecurrence = true LIMIT 75];
+for (Integer i = 0; i < parentEvents.size(); ++i) {
+	delete parentEvents[i];
+}
+
+Event[] childEvents = [SELECT Id FROM Event WHERE isDeleted = false AND isRecurrence = false LIMIT 151];
+delete childEvents;
