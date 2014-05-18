@@ -1,0 +1,18 @@
+[submodule "projects/bitbucket"]
+	path = projects/bitbucket
+	url = git@bitbucket.org:robinrob/bitbucket.git
+[submodule "projects/global-rakefile"]
+	path = projects/global-rakefile
+	url = git@bitbucket.org:robinrob/global-rakefile.git
+[submodule "projects/rbpassword"]
+	path = projects/rbpassword
+	url = git@bitbucket.org:robinrob/rbpassword.git
+[submodule "projects/ruby-app"]
+	path = projects/ruby-app
+	url = git@bitbucket.org:robinrob/ruby-app.git
+[submodule "projects/mrrobinsmith.com"]
+	path = projects/mrrobinsmith.com
+	url = git@bitbucket.org:robinrob/mrrobinsmith.com.git
+[submodule "projects/rakefile"]
+	path = projects/rakefile
+	url = git@bitbucket.org:robinrob/rakefile.git
