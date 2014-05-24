@@ -16,3 +16,6 @@
 [submodule "projects/rakefile"]
 	path = projects/rakefile
 	url = git@bitbucket.org:robinrob/rakefile.git
+[submodule "projects/last"]
+	path = projects/last
+	url = git@bitbucket.org:robinrob/last.git
