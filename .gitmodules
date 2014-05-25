@@ -4,36 +4,18 @@
 [submodule "projects/global-rakefile"]
 	path = projects/global-rakefile
 	url = git@bitbucket.org:robinrob/global-rakefile.git
+[submodule "projects/last"]
+	path = projects/last
+	url = git@bitbucket.org:robinrob/last.git
+[submodule "projects/mrrobinsmith.com"]
+	path = projects/mrrobinsmith.com
+	url = git@bitbucket.org:robinrob/mrrobinsmith.com.git
 [submodule "projects/rbpassword"]
 	path = projects/rbpassword
 	url = git@bitbucket.org:robinrob/rbpassword.git
 [submodule "projects/ruby-app"]
 	path = projects/ruby-app
 	url = git@bitbucket.org:robinrob/ruby-app.git
-[submodule "projects/mrrobinsmith.com"]
-	path = projects/mrrobinsmith.com
-	url = git@bitbucket.org:robinrob/mrrobinsmith.com.git
-[submodule "projects/rakefile"]
-	path = projects/rakefile
-	url = git@bitbucket.org:robinrob/rakefile.git
-[submodule "projects/last"]
-	path = projects/last
-	url = git@bitbucket.org:robinrob/last.git
 [submodule "projects/tagalog"]
 	path = projects/tagalog
 	url = git@bitbucket.org:robinrob/tagalog.git
-[submodule "bitbucket"]
-	path = bitbucket
-	url = git@bitbucket.org:robinrob/bitbucket.git
-[submodule "global-rakefile"]
-	path = global-rakefile
-	url = git@bitbucket.org:robinrob/global-rakefile.git
-[submodule "last"]
-	path = last
-	url = git@bitbucket.org:robinrob/last.git
-[submodule "mrrobinsmith.com"]
-	path = mrrobinsmith.com
-	url = git@bitbucket.org:robinrob/mrrobinsmith.com.git
-[submodule "robins-rakefile"]
-	path = robins-rakefile
-	url = git@bitbucket.org:robinrob/rakefile.git
