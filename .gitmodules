@@ -22,3 +22,18 @@
 [submodule "projects/tagalog"]
 	path = projects/tagalog
 	url = git@bitbucket.org:robinrob/tagalog.git
+[submodule "bitbucket"]
+	path = bitbucket
+	url = git@bitbucket.org:robinrob/bitbucket.git
+[submodule "global-rakefile"]
+	path = global-rakefile
+	url = git@bitbucket.org:robinrob/global-rakefile.git
+[submodule "last"]
+	path = last
+	url = git@bitbucket.org:robinrob/last.git
+[submodule "mrrobinsmith.com"]
+	path = mrrobinsmith.com
+	url = git@bitbucket.org:robinrob/mrrobinsmith.com.git
+[submodule "robins-rakefile"]
+	path = robins-rakefile
+	url = git@bitbucket.org:robinrob/rakefile.git
