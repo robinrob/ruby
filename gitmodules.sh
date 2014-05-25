@@ -1,4 +1,4 @@
-REPOS="bitbucket global-rakefile rbpassword ruby-app mrrobinsmith.com rakefile"
+REPOS="bitbucket global-rakefile rbpassword ruby-app mrrobinsmith.com rakefile last"
 
 for repo in $REPOS; do
 	rm -rf projects/$repo

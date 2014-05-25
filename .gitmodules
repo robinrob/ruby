@@ -16,6 +16,9 @@
 [submodule "projects/rakefile"]
 	path = projects/rakefile
 	url = git@bitbucket.org:robinrob/rakefile.git
-[submodule "projects/tagalog/robins-rakefile"]
-	path = projects/tagalog/robins-rakefile
-	url = bb:robinrob/rakefile.git
+[submodule "projects/last"]
+	path = projects/last
+	url = git@bitbucket.org:robinrob/last.git
+[submodule "projects/tagalog"]
+	path = projects/tagalog
+	url = git@bitbucket.org:robinrob/tagalog.git
