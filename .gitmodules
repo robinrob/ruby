@@ -19,3 +19,6 @@
 [submodule "projects/last"]
 	path = projects/last
 	url = git@bitbucket.org:robinrob/last.git
+[submodule "projects/tagalog"]
+	path = projects/tagalog
+	url = git@bitbucket.org:robinrob/tagalog.git
