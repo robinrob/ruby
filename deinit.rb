@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'csv'
+
 def deinit_all()
   
   CSV.foreach("repos.csv", :headers => true) do |csv_obj|
@@ -8,7 +10,6 @@ def deinit_all()
     
   end
   
-  system("rm .gitmodules")
   system("rm -rf .git/modules/")
   
 end
@@ -22,10 +23,9 @@ def deinit(repo)
 end
 
 
-require 'csv'
-
 if ARGV.size() == 2
   repo = ARGV[1]
+  deinit(repo)
 else
   deinit_all()
 end
