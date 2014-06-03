@@ -23,10 +23,10 @@ def deinit(repo)
 end
 
 
-if ARGV.size() == 2
-  repo = ARGV[1]
+if ARGV.size() == 1
+  repo = ARGV[0]
   deinit(repo)
-else
+elsif ARGV.size() == 0
   deinit_all()
 end
 

@@ -26,9 +26,9 @@
 	path = projects/ruby-app
 	url = git@bitbucket.org:robinrob/ruby-app.git
 	branch = master
-[submodule "projects/tagalog"]
-	path = projects/tagalog
-	url = git@bitbucket.org:robinrob/tagalog.git
+[submodule "projects/quiz"]
+	path = projects/quiz
+	url = git@bitbucket.org:robinrob/quiz.git
 	branch = master
 [submodule "projects/rakefile"]
 	path = projects/rakefile
