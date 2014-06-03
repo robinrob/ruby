@@ -30,3 +30,7 @@
 	path = projects/tagalog
 	url = git@bitbucket.org:robinrob/tagalog.git
 	branch = master
+[submodule "projects/rakefile"]
+	path = projects/rakefile
+	url = git@bitbucket.org:robinrob/rakefile.git
+	branch = master
