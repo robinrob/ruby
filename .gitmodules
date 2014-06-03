@@ -30,3 +30,7 @@
 	path = projects/quiz
 	url = git@bitbucket.org:robinrob/quiz.git
 	branch = master
+[submodule "projects/rakefile"]
+	path = projects/rakefile
+	url = git@bitbucket.org:robinrob/rakefile.git
+	branch = master
