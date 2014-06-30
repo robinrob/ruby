@@ -37,3 +37,6 @@
 [submodule "projects/rcsv"]
 	path = projects/rcsv
 	url = git@bitbucket.org:robinrob/rcsv.git
+[submodule "aws-backup-system/robins-rakefile"]
+	path = aws-backup-system/robins-rakefile
+	url = git@bitbucket.org:robinrob/rakefile.git
