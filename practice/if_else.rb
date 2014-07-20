@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 count = 11
 
 puts if_else 11
