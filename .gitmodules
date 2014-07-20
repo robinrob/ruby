@@ -37,7 +37,20 @@
 [submodule "projects/rcsv"]
 	path = projects/rcsv
 	url = git@bitbucket.org:robinrob/rcsv.git
+	branch = master
 [submodule "projects/aws-backup-manager"]
 	path = projects/aws-backup-manager
 	url = git@bitbucket.org:robinrob/aws-backup-manager.git
+	branch = master
+[submodule "submodule"]
+	path = submodule
+	url = git@bitbucket.org:robinrob/submodule.git
+	branch = master
+[submodule "projects/submodule"]
+	path = projects/submodule
+	url = git@bitbucket.org:robinrob/submodule.git
+	branch = master
+[submodule "rake"]
+	path = rake
+	url = git@bitbucket.org:robinrob/rakefile.git
 	branch = master
