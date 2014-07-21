@@ -6,10 +6,6 @@
 	path = projects/bitbucket
 	url = git@bitbucket.org:robinrob/bitbucket.git
 	branch = master
-[submodule "projects/global-rakefile"]
-	path = projects/global-rakefile
-	url = git@bitbucket.org:robinrob/global-rakefile.git
-	branch = master
 [submodule "projects/last"]
 	path = projects/last
 	url = git@bitbucket.org:robinrob/last.git
