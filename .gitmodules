@@ -50,3 +50,7 @@
 	path = rake
 	url = git@bitbucket.org:robinrob/rakefile.git
 	branch = master
+[submodule "projects/kitchenplan"]
+	path = projects/kitchenplan
+	url = git@bitbucket.org:robinrob/kitchenplan.git
+	branch = master
