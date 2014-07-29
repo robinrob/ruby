@@ -1,0 +1,11 @@
+--color
+--warnings
+--require spec_helper
+--format doc
+--format progress
+
+RSpec.configure do |config|
+  config.expect_with :rspec do |c|
+    c.syntax = :expect
+  end
+end
