@@ -1,14 +1,15 @@
 #!/usr/bin/env ruby
-count = 11
 
-puts if_else 11
+# If-else which also shows concise way to get typed input e.g. integer
 
-def if_else count
-  if count > 10
-    puts "Try again"
-  elsif tries == 3
-    puts "You lose"
+def if_else num
+  if num > 20
+    puts "Greater than 20"
+  elsif num > 10
+    puts "Greater than 10"
   else
-    puts "Enter a number"
+    puts "Less than 10"
   end
 end
+
+if_else gets.to_i
