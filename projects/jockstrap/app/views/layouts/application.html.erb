@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Robin Smith Software&#8482</title>
+    <%= stylesheet_link_tag    "application", :media => "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    <%= favicon_link_tag '/favicon.ico' %>
+</head>
+<body>
+
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container pull-left standard-padding">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand robin" href="/">Robin Smith Software&#8482</a>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li><%= link_to "Blog", '/blogposts'%></li>
+                    <li><%= link_to "Programming", '/programming'%></li>
+                    <li><%= link_to "CV", '/cv'%></li>
+                    <li><%= link_to "CSS Face", '/face'%></li>
+                </ul>
+                <ul class="nav pull-right padding-right">
+                    <li><%= link_to "Login", '/login'%></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <!--<div class="developer"><p>Developer mode</p></div>-->
+    <%= yield %>
+    <div class="footer">
+        <p>Robin Smith (2014)</p>
+    </div>
+</div>
+
+</body>
+
+</html>

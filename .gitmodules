@@ -54,3 +54,6 @@
 	path = projects/kitchenplan
 	url = git@bitbucket.org:robinrob/kitchenplan.git
 	branch = master
+[submodule "projects/sample_app"]
+	path = projects/sample_app
+	url = git@github.com:railstutorial/sample_app.git
