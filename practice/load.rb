@@ -2,6 +2,4 @@
 
 load 'loaded.rb'
 
-loaded = Loaded.new()
-
-puts "loaded.field1: #{loaded.field1}"
+Loaded.new()

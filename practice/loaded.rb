@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 
 class Loaded
-  attr_accessor :field1
   
   def initialize()
-    @field1 = "Hello Robin Smith"
+    puts "I've been loaded you twat"
   end
 end
