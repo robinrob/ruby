@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 begin
-  a
-rescue
-  puts "variable a is not defined!"
+  i_am_not_defined
+rescue Exception => e
+  puts "e.message: #{e.message}"
+  puts "e.backtrace: #{e.backtrace}"
 end

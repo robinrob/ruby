@@ -1,0 +1,46 @@
+# Logfile created on 2014-09-10 14:27:38 -0700 by logger.rb/44203
+D, [2014-09-10T14:37:28.873768 #17381] DEBUG -- : Created Loggers
+D, [2014-09-10T14:37:36.387321 #17437] DEBUG -- : Created Loggers
+D, [2014-09-10T14:40:04.226351 #17634] DEBUG -- : Debug
+I, [2014-09-10T14:40:04.226445 #17634]  INFO -- : Info
+W, [2014-09-10T14:40:04.226498 #17634]  WARN -- : Warning
+D, [2014-09-10T14:46:18.048448 #18645] DEBUG -- : Debug
+I, [2014-09-10T14:46:18.048546 #18645]  INFO -- : Info
+W, [2014-09-10T14:46:18.048578 #18645]  WARN -- : Warning
+D, [2014-09-10T14:46:26.932905 #18707] DEBUG -- : Debug
+I, [2014-09-10T14:46:26.933006 #18707]  INFO -- : Info
+W, [2014-09-10T14:46:26.933058 #18707]  WARN -- : Warning
+D, [2014-09-10T14:47:39.624910 #18822] DEBUG -- : Debug
+I, [2014-09-10T14:47:39.625006 #18822]  INFO -- : Info
+W, [2014-09-10T14:47:39.625061 #18822]  WARN -- : Warning
+D, [2014-09-10T14:48:28.095221 #18911] DEBUG -- : Debug
+I, [2014-09-10T14:48:28.095337 #18911]  INFO -- : Info
+W, [2014-09-10T14:48:28.095395 #18911]  WARN -- : Warning
+D, [2014-09-10T14:48:37.624495 #18958] DEBUG -- : Debug
+I, [2014-09-10T14:48:37.624588 #18958]  INFO -- : Info
+W, [2014-09-10T14:48:37.624620 #18958]  WARN -- : Warning
+E, [2014-09-10T14:48:37.624670 #18958] ERROR -- : undefined local variable or method `a' for main:Object
+D, [2014-09-10T14:48:56.423902 #19017] DEBUG -- : Debug
+I, [2014-09-10T14:48:56.424005 #19017]  INFO -- : Info
+W, [2014-09-10T14:48:56.424038 #19017]  WARN -- : Warning
+E, [2014-09-10T14:48:56.424091 #19017] ERROR -- : undefined local variable or method `a' for main:Object
+E, [2014-09-10T14:48:56.424155 #19017] ERROR -- : ./logging.rb:18:in `<main>'
+F, [2014-09-10T14:48:56.424209 #19017] FATAL -- : Fatal!
+D, [2014-09-10T14:49:36.498034 #19125] DEBUG -- : Debug
+I, [2014-09-10T14:49:36.498127 #19125]  INFO -- : Info
+W, [2014-09-10T14:49:36.498159 #19125]  WARN -- : Warning
+E, [2014-09-10T14:49:36.498227 #19125] ERROR -- : undefined local variable or method `a' for main:Object
+./logging.rb:18:in `<main>'
+F, [2014-09-10T14:49:36.498287 #19125] FATAL -- : Fatal!
+D, [2014-09-10T14:49:52.277023 #19205] DEBUG -- : Debug
+I, [2014-09-10T14:49:52.277118 #19205]  INFO -- : Info
+W, [2014-09-10T14:49:52.277171 #19205]  WARN -- : Warning
+E, [2014-09-10T14:49:52.277253 #19205] ERROR -- : undefined local variable or method `a' for main:Object
+./logging.rb:18:in `<main>'
+F, [2014-09-10T14:49:52.277315 #19205] FATAL -- : Fatal!
+D, [2014-09-10T14:50:21.661863 #19324] DEBUG -- : Debug
+I, [2014-09-10T14:50:21.661955 #19324]  INFO -- : Info
+W, [2014-09-10T14:50:21.662008 #19324]  WARN -- : Warning
+E, [2014-09-10T14:50:21.662091 #19324] ERROR -- : undefined local variable or method `a' for main:Object
+./logging.rb:18:in `<main>'
+F, [2014-09-10T14:50:21.662154 #19324] FATAL -- : Fatal!
