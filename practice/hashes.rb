@@ -1,6 +1,6 @@
+#!/usr/bin/env ruby
 #Mapping strings to strings
-#(instruments to sections)
-instSection = {
+inst_section = {
   "cello"     => "string",
   "clarinet"  => "woodwind",
   "drum"      => "percussion",
@@ -9,11 +9,12 @@ instSection = {
   "violin"    => "string"
 }
 
-puts instSection["oboe"]
-puts instSection["cello"]
+puts inst_section["oboe"]
+
 #Null mapping gives the nil value by default
 puts instSection["bassoon"]
-puts "\n"
+puts "
+"
 
 #Set the null mapping value to something else
 histogram = Hash.new(0)
