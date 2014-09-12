@@ -2,11 +2,14 @@ require 'logger'
 
 class AppLogger
 
-  @@loggers
+  @@loggers = nil
 
 
   def initialize(*loggers)
-    @@loggers = *loggers
+    loggers = *loggers
+    if @@loggers.nil? and !(loggers.nil?)
+      @@loggers = *loggers
+    end
   end
 
 
@@ -15,6 +18,7 @@ class AppLogger
       logger.send(method, msg)
     end
   end
+
 
   def debug(msg)
     log(:debug, msg)
@@ -31,8 +35,8 @@ class AppLogger
   end
 
 
-  def error(err)
-    log(:error, "#{err.message}\n#{err.backtrace.join("\n")}")
+  def error(msg)
+    log(:error, msg)
   end
 
 
@@ -47,5 +51,12 @@ class AppLogger
     end
   end
 
+
+  def exception(e, msg=nil)
+    unless msg.nil?
+      msg = "#{msg}: "
+    end
+    log(:error, "#{msg}#{e.message}\n#{e.backtrace.join("\n")}")
+  end
 
 end

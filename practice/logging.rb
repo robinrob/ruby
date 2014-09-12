@@ -1,23 +1,38 @@
 #!/usr/bin/env ruby
 
-$LOAD_PATH << '.'
-
 require 'logger'
-require 'app_logger'
 
+# logger = Logger.new(STDERR)
+logger = Logger.new(STDOUT)
 
-LOG_FILE="log.log"
-LOG = AppLogger.new(Logger.new(LOG_FILE), Logger.new(STDOUT))
-LOG.level(Logger::DEBUG)
+# logger = Logger.new('foo.log', 'daily')
 
-LOG.debug("Debug")
-LOG.info("Info")
-LOG.warn("Warning")
+logger.level = Logger::DEBUG
 
-begin
-  a
-rescue Exception => e
-  LOG.error(e)
-end
+logger.datetime_format = "%Y-%m-%d %H:%M:%S"
 
-LOG.fatal("Fatal!")
+logger.fatal { "Argument 'foo' not given." }
+
+# Message as a string.
+
+logger.error "Argument #{ @foo } mismatch."
+
+# With progname.
+
+logger.info('initialize') { "Initializing..." }
+
+# With severity.
+
+logger.add(Logger::FATAL) { 'Fatal error!' }
+
+# The block form allows you to create potentially complex log messages, but to delay their evaluation until and unless the message is logged. For example, if we have the following:
+
+logger.debug { "This is a #{:potentially} expensive operation" }
+
+# If the logger’s level is INFO or higher, no debug messages will be logged, and the entire block will not even be evaluated. Compare to this:
+
+logger.debug("This is a #{:potentially} expensive operation")
+
+# Here, the string concatenation is done every time, even if the log level is not set to show the debug message.
+
+logger.close

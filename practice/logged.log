@@ -1,0 +1,9 @@
+# Logfile created on 2014-09-11 20:01:56 -0700 by logger.rb/44203
+D, [2014-09-11 20:01:56#38613] DEBUG -- : Debug
+I, [2014-09-11 20:01:56#38613]  INFO -- : Info
+W, [2014-09-11 20:01:56#38613]  WARN -- : Warning
+E, [2014-09-11 20:01:56#38613] ERROR -- : Error!
+F, [2014-09-11 20:01:56#38613] FATAL -- : FATAL!
+E, [2014-09-11 20:01:56#38613] ERROR -- : Fuck: undefined local variable or method `i_am_undefined' for main:Object
+./app_logging.rb:35:in `<main>'
+D, [2014-09-11 20:01:56#38613] DEBUG -- : Logger2: Debug

@@ -1,3 +1,5 @@
+# Ruby find/replace!
+
 line = "This line contains Perls: Perl, Perl!"
 puts line
 
@@ -6,4 +8,3 @@ puts line.sub(/Perl/, 'Ruby')
 
 puts "No - all of them!"
 puts line.gsub(/Perl/, 'Ruby')
-
