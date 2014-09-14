@@ -16,3 +16,18 @@ puts square.call(11)
 puts square.call(5)
 puts cube.call(6)
 puts cube.call(8)
+puts
+
+
+
+closure = nil        # Define closure so the name will be known
+1.times do           # Start a new context
+  x = 5              # x is local to this block
+  closure = Proc.new { puts "In closure, x = #{x}" }
+end
+
+x = 1
+
+# Define x at top level
+
+closure.call         # Prints: In closure, x = 5
