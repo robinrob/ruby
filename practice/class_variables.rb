@@ -8,7 +8,6 @@ require 'lib/log.rb'
 class MyClass
 
   @x = 1       # A class instance variable
-  @y = 2       # Another one
 
   def mymethod
     @x = 3     # An instance variable
