@@ -1,9 +1,14 @@
 #!/usr/bin/env ruby
 
-puts "Robin" <=> "Alma"
+$LOAD_PATH << '.'
 
-puts "Smith" <=> "Lorenzo"
+require 'lib/log.rb'
 
-puts "Buko" <=> "Maganda"
 
-puts "Pogi" <=> "Panget"
+Log.put("'Robin' <=> 'Alma'")
+
+Log.put("'Smith' <=> 'Lorenzo'")
+
+Log.put("'Buko' <=> 'Maganda'")
+
+Log.put("'Pogi' <=> 'Panget'")

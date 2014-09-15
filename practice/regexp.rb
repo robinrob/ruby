@@ -16,3 +16,6 @@ puts
 
 # /m modifier means that . will match newlines!
 Log.put("'robin\nsmith'.match(/robin.*/m)")
+puts
+
+Log.put("\"string contains uppercase unicode characters like Ü\".match(/\\p{Upper}/)")
