@@ -57,3 +57,6 @@
 [submodule "projects/sample_app"]
 	path = projects/sample_app
 	url = git@github.com:railstutorial/sample_app.git
+[submodule "projects/heroku-s3-backup"]
+	path = projects/heroku-s3-backup
+	url = git@bitbucket.org:robinrob/heroku-s3-backup.git
