@@ -12,3 +12,5 @@ puts
 
 put(name: "Robin", age: "Smith")
 
+hash = {name: "Robin", age: "Smith"}
+puts hash.keys
