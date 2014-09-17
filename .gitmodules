@@ -60,3 +60,6 @@
 [submodule "projects/heroku-s3-backup"]
 	path = projects/heroku-s3-backup
 	url = git@bitbucket.org:robinrob/heroku-s3-backup.git
+[submodule "projects/local"]
+	path = projects/local
+	url = git@bitbucket.org:robinrob/local.git
