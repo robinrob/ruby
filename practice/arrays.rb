@@ -1,15 +1,21 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << '.'
+
+require 'lib/log.rb'
+
+
 #Array with different types!
-a = [3, 'pi', 3.14]
-a[0] >> 1
-puts a
-puts "\n"
+Log.put "[3, 'pi', 3.14]"
+Log.put "[3, 'pi', 3.14] << 1"
+puts
 
 #Initialise empty array
-empty1 = []
-empty2 = Array.new
+Log.put "[]"
+Log.put "Array.new"
+puts
 
 #Shortcut to making String array
-a = %w{ant bee chipmunk dog elk}
-puts a[0]
-puts a[3]
-puts "\n"
+Log.put "%w{ant bee chipmunk dog elk}"
+Log.put "%w{ant bee chipmunk dog elk}[0]"
+Log.put "%w{ant bee chipmunk dog elk}[3]"

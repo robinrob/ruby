@@ -11,10 +11,3 @@ puts "each.with_index:"
 [:a, :b, :c, :d, :e].each.with_index do |val, i|
   puts "#{i}: #{val}"
 end
-
-puts
-
-puts "each_line.with_index:"
-"Robin\nAndrew\nSmith\n".each_line.with_index do |line, i|
-  puts "line #{i}: #{line}"
-end

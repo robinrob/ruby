@@ -1,7 +1,3 @@
-[submodule "robins-rakefile"]
-	path = robins-rakefile
-	url = git@bitbucket.org:robinrob/rakefile.git
-	branch = master
 [submodule "projects/bitbucket"]
 	path = projects/bitbucket
 	url = git@bitbucket.org:robinrob/bitbucket.git
@@ -38,14 +34,6 @@
 	path = projects/aws-backup-manager
 	url = git@bitbucket.org:robinrob/aws-backup-manager.git
 	branch = master
-[submodule "submodule"]
-	path = submodule
-	url = git@bitbucket.org:robinrob/submodule.git
-	branch = master
-[submodule "projects/submodule"]
-	path = projects/submodule
-	url = git@bitbucket.org:robinrob/submodule.git
-	branch = master
 [submodule "rake"]
 	path = rake
 	url = git@bitbucket.org:robinrob/rakefile.git
@@ -54,9 +42,6 @@
 	path = projects/kitchenplan
 	url = git@bitbucket.org:robinrob/kitchenplan.git
 	branch = master
-[submodule "projects/sample_app"]
-	path = projects/sample_app
-	url = git@github.com:railstutorial/sample_app.git
 [submodule "projects/heroku-s3-backup"]
 	path = projects/heroku-s3-backup
 	url = git@bitbucket.org:robinrob/heroku-s3-backup.git
