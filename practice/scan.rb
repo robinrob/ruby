@@ -1,13 +1,19 @@
 #!/usr/bin/env ruby
 
+$LOAD_PATH << '.'
 
-str = "Robin Smith"
+require 'lib/log.rb'
+require 'scanf'
 
-chars = str.scan(/./)
-chars.each {|char| print char, " " }
+
+Log.put "'Robin Smith'.scan(/./).each {|char| print char, ' ' }"
 puts
+
 
 # Same as this though
-chars = str.split("")
-chars.each {|char| print char, " " }
+Log.put "'Robin Smith'.split('').each {|char| print char, ' ' }"
 puts
+
+
+# str = "234 234 234"
+Log.put "'234 234 234'.scanf('%d %o %x')"
