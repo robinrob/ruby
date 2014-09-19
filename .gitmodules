@@ -51,6 +51,3 @@
 [submodule "projects/rails4-bootstrap3"]
 	path = projects/rails4-bootstrap3
 	url = git@bitbucket.org:robinrob/rails-bootstrap.git
-[submodule "projects/projects/local"]
-	path = projects/projects/local
-	url = git@bitbucket.org:robinrob/local.git
