@@ -1,16 +1,17 @@
 #!/usr/bin/env ruby
 
-def put(hash)
-  puts hash
-end
+$LOAD_PATH << '.'
 
-put({"name" => "Robin", :age => "Smith"})
+require 'lib/log.rb'
+
+
+Log.put "{'name' => 'Robin', :age => 27}"
 puts
 
-put({name: "Robin", age: "Smith"})
+Log.put "{'name' => 'Robin', :age => 27}.keys"
 puts
 
-put(name: "Robin", age: "Smith")
+Log.put "{'name' => 'Robin', :age => 27}.has_key?('age')"
+puts
 
-hash = {name: "Robin", age: "Smith"}
-puts hash.keys
+Log.put "{'name' => 'Robin', :age => 27}.has_key?(:age)"
