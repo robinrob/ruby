@@ -13,11 +13,27 @@ module Log
 
 
   def self.putsc(str)
-    puts self.color str
+    puts self.colors str
   end
 
+
+  def self.color(str='', color='white')
+    puts str.send(color)
+  end
+
+
+  def self.cyan(str)
+    color(str, 'cyan')
+  end
+
+
+  def self.yellow(str)
+    color(str, 'yellow')
+  end
+
+
   private
-  def self.color(str, mapping=nil)
+  def self.colors(str, mapping=nil)
 
     str.gsub!(/(?<!:):(?!:)/, 'ccccccolon')
 
@@ -45,4 +61,5 @@ module Log
 
     color_string.gsub('ccccccolon', ':')
   end
+
 end
