@@ -35,7 +35,7 @@ module Log
   private
   def self.colors(str, mapping=nil)
 
-    str.gsub!(/(?<!:):(?!:)/, 'ccccccolon')
+    str.gsub!(/(?<!:):(?!:)/, 'colon')
 
     # puts str =~(/::/)
     if mapping.nil?
@@ -59,7 +59,7 @@ module Log
       color_string += str
     end
 
-    color_string.gsub('ccccccolon', ':')
+    color_string.gsub('colon', ':')
   end
 
 end
