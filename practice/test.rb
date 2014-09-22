@@ -4,10 +4,10 @@ $LOAD_PATH << '.'
 
 require 'lib/log.rb'
 
-# puts "!?".match(/[?!]*/)
-#
-# puts '!?'.match(/[?!]*/)
+num = '(\\d|[01]?\\d\\d|2[0-4]\\d|25[0-5])'
 
-# puts '!?'.match(/[!?]*/)
+pat = '^(#{num}\.){3}#{num}$'
 
-puts 'abbb'.scan(/b*/).inspect
+ip_pat = Regexp.new(pat)
+
+'9.53.97.102'.match(ip_pat)
