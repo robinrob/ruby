@@ -27,6 +27,16 @@ module Log
   end
 
 
+  def self.magenta(str)
+    color(str, 'magenta')
+  end
+
+
+  def self.maganda(str)
+    color(str, 'magenta')
+  end
+
+
   def self.yellow(str)
     color(str, 'yellow')
   end

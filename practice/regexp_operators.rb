@@ -140,9 +140,16 @@ puts
 # Log.put "'Robin Smith!!!'.match(/(Smith|Robin)!+/)"
 # puts
 
-# Log.cyan "Negative look-behind:"
-# Log.put "'Robinnnnnnnn Smith'.match(/i(?!<b).*/)"
-# puts
+Log.cyan "(?:) - Non-matching group:"
+Log.put "'a123b45c678'.sub(/(a\\d+)(?:b\\d+)(c\\d+)/, '1st=\\1, 2nd=\\2, 3rd=\\3')"
+Log.maganda "In the preceding example, the second grouping was thrown away, and what was the third submatch became the
+second."
+puts
+
+
+Log.cyan "?<robin> - Named match operator:"
+Log.put "'Now is the the time for all...'.match(/\\s+(?<robin>\\w+)\s+\\k<robin>\\s+/)"
+Log.maganda "The sub-expression (/\\s+(\\w+) is given the name 'robin' by the use of the ?<robin> operator."
 
 
 # Note: only two slashes are required for this one outside of eval - this was painfully modified to work with eval!
