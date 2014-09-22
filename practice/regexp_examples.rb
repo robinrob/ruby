@@ -5,6 +5,11 @@ $LOAD_PATH << '.'
 require 'lib/log.rb'
 
 
+Log.cyan "Matching a Back-fucking-slash:"
+Log.put "'Ro\\bin'.match(/\\\\/)"
+puts
+
+
 Log.cyan "Match an IPv4 IP address (four decimal numbers separated by periods, each number ranging from 0 to 255):"
 Log.put "num = /\\d|[01]?\\d\\d|2[0-4]\\d|25[0-5]/
 '9.53.97.102'.match(/^(\#{num}\\.){3}\#{num}$/)"
@@ -32,6 +37,7 @@ rom4 = /(v?i{0,3}|i[vx])/i
 'MCMLXXXV'.match(/^\#{rom1}\#{rom2}\#{rom3}\#{rom4}$/).to_a"
 puts
 
+
 Log.cyan "Matching numeric constants:"
 Log.put "'1234'.match(/^[+-]?[1-9][\\d_]*$/)"
 Log.put "'0x1b'.match(/^[+-]?0x[\\da-f_]+$/i)"
@@ -43,7 +49,6 @@ puts
 
 
 Log.cyan "Matching date/times:"
-
 Log.put "mo = /(0?[1-9]|1[0-2])/          # 01 to 09 or 1 to 9 or 10-12
 dd = /([0-2]?[1-9]|[1-3][01])/   # 1-9 or 01-09 or 11-19 etc.
 yy = /(\\d\\d)/                    # 00-99

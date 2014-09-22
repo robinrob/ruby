@@ -136,23 +136,46 @@ Log.cyan "() Grouping of sub-expressions:"
 Log.put "'Robin Smith!!!'.match(/(Smith|Robin)!+/)"
 puts
 
-# Log.cyan "Embedded sub-expression:"
-# Log.put "'Robin Smith!!!'.match(/(Smith|Robin)!+/)"
-# puts
+Log.cyan "(?>) - Embedded sub-expression. Note that this notation is possessive — that is, it is greedy,
+and it does not allow backtracking into the subexpression."
+Log.put "'abcdef'.match(/(?>abc)(?>def)/).to_a"
+puts
 
-Log.cyan "(?:) - Non-matching group:"
+
+Log.cyan "(?:) - Non-capturing group:"
 Log.put "'a123b45c678'.sub(/(a\\d+)(?:b\\d+)(c\\d+)/, '1st=\\1, 2nd=\\2, 3rd=\\3')"
 Log.maganda "In the preceding example, the second grouping was thrown away, and what was the third submatch became the
 second."
 puts
 
 
-Log.cyan "?<robin> - Named match operator:"
+Log.cyan "(?imx-imx) - Turn options on/off henceforth. A question mark followed by one or more options “turns on” those
+options for the remainder of the regular expression. A minus sign preceding one or more options “turns off” those
+options:"
+Log.put "'abcdef'.match(/abc(?i)def/)"
+Log.put "'abcDEF'.match(/abc(?i)def/)"
+Log.put "'ABCdef'.match(/abc(?i)def/)"
+Log.put "'abcdef'.match(/ab(?i)cd(?-i)ef/)"
+Log.put "'abCDef'.match(/ab(?i)cd(?-i)ef/)"
+Log.put "'ABcdef'.match(/ab(?i)cd(?-i)ef/)"
+Log.put "'abcdEF'.match(/ab(?i)cd(?-i)ef/)"
+Log.put "'abcdEF'.match(/abc(?i-m).*/m)"
+Log.maganda "For last part of regex, turn on case sensitivity, turn off multiline"
+puts
+
+
+Log.cyan "(?imx-imx:expr) - Turn options on/off for this expression."
+Log.put "'abCDef'.match(/ab(?-i:cd)ef/i)"
+Log.maganda "This fails to match because we've turned case-sensitivity back on for the only characters that were
+capitalized in the string!"
+puts
+
+
+Log.cyan "(?<>) - Named match operator:"
 Log.put "'Now is the the time for all...'.match(/\\s+(?<robin>\\w+)\s+\\k<robin>\\s+/)"
 Log.maganda "The sub-expression (/\\s+(\\w+) is given the name 'robin' by the use of the ?<robin> operator."
+puts
 
-
-# Note: only two slashes are required for this one outside of eval - this was painfully modified to work with eval!
-# Log.cyan "Miscellaneous - Backslash:"
-# Log.put "'Ro\\bin'.match(/\\\\/)"
-# puts
+Log.cyan "(?#) - Comment:"
+Log.put "'Now is the the time for all...'.match(/\\s+(?<robin>\\w+)(?#HELLO ROBIN!)\s+\\k<robin>\\s+/)"
+Log.maganda "The sub-expression (/\\s+(\\w+) is given the name 'robin' by the use of the ?<robin> operator."
