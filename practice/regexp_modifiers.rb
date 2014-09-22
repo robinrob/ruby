@@ -16,7 +16,6 @@ puts
 
 Log.cyan "Perform expression substitution only once:"
 # Log.put "'Robin Smith'.match(/[a-z]*/o)"
-Log.put "'Robin Buko Smith'.gsub!(/o/o, '\O\_1')"
 puts
 
 Log.cyan "Multiline mode (dot matches newline):"
@@ -24,4 +23,6 @@ Log.put "'Robin\nSmith'.match(/.*/m)"
 puts
 
 Log.cyan "Extended regex (allow whitespace, comments):"
-Log.put "'Robin Smith'.match(/ Robin   .*   Smi   th/x)"
+Log.put "'Robin Smith'.match(/ Robin   .*   Smi
+  th/x)"
+Log.maganda "Extended regexes are useful for making long regexes easier to read by formatting them."
