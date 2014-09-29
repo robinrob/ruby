@@ -5,7 +5,12 @@ $LOAD_PATH << '.'
 require 'lib/log.rb'
 
 
+Log.cyan "Hash literal:"
 Log.put "{'name' => 'Robin', :age => 27}"
+puts
+
+Log.cyan "Alternate hash literal syntax:"
+Log.put "{name: 'Robin', age: 27}"
 puts
 
 Log.put "{'name' => 'Robin', :age => 27}.keys"

@@ -19,3 +19,6 @@ Log.put("'robin\nsmith'.match(/robin.*/m)")
 puts
 
 Log.put("\"string contains uppercase unicode characters like Ü\".match(/\\p{Upper}/)")
+
+
+Log.put("\"robin smith\".match(/[a-z]*/)")

@@ -10,6 +10,11 @@ Log.put "'Ro\\bin'.match(/\\\\/)"
 puts
 
 
+Log.cyan "Matching a North American telephone number:"
+Log.put "'604-603-9325'.match(/\\d{3}-\\d{3}-\\d{4}/)"
+puts
+
+
 Log.cyan "Match an IPv4 IP address (four decimal numbers separated by periods, each number ranging from 0 to 255):"
 Log.put "num = /\\d|[01]?\\d\\d|2[0-4]\\d|25[0-5]/
 '9.53.97.102'.match(/^(\#{num}\\.){3}\#{num}$/)"
