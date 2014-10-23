@@ -1,13 +1,13 @@
 $LOAD_PATH << '.'
 
 require 'logger'
-require 'date_addons'
 require 'app_config'
+require 'date'
 
 class AppLogger
 
   @@loggers = nil
-  @@secret_words = [AppConfig::HEROKU_PASS]
+  @@secrets = AppConfig::SECRETS
 
 
   def initialize(prefix="")
@@ -18,25 +18,7 @@ class AppLogger
   end
 
 
-  def config_logger(type)
-    logger = Logger.new(type)
-    if AppConfig::DEBUG
-      logger.level = Logger::DEBUG
-    else
-      logger.level = Logger::INFO
-    end
-    logger.datetime_format = AppConfig::DATE_FORMAT
-    logger
-  end
-
-
-  def log(method, msg)
-    @@loggers.each do |logger|
-      logger.send(method, "#{@prefix}: #{sanitize(msg)}")
-    end
-  end
-
-
+  public
   def debug(msg)
     log(:debug, msg)
   end
@@ -80,27 +62,47 @@ class AppLogger
 
 
   private
-  def nil_or_empty?(str)
-    if str.to_s == ''
-      return true
-    else
-      return false
-    end
-  end
-
-
   def app_loggers
     [config_logger(STDOUT),
      config_logger("logs/#{DateTime.now().strftime(AppConfig::DATE_FORMAT)}.log")]
   end
 
 
+  def config_logger(type)
+    logger = Logger.new(type)
+    if AppConfig::DEBUG
+      logger.level = Logger::DEBUG
+    else
+      logger.level = Logger::INFO
+    end
+    logger.datetime_format = AppConfig::DATE_FORMAT
+    logger
+  end
+
+
+  def log(method, msg)
+    @@loggers.each do |logger|
+      logger.send(method, "#{@prefix}: #{sanitize(msg)}")
+    end
+  end
+
+
   def sanitize(str)
-    @@secret_words.each do |secret_word|
-      safe_word = '*' * secret_word.length
-      str = str.gsub(secret_word, safe_word)
+    @@secrets.keys.each do |key|
+      secret = @@secrets[key]
+      safe = '*' * secret.length
+      str = str.gsub(secret, safe)
     end
     str
+  end
+
+
+  def nil_or_empty?(str)
+    if str.to_s == ''
+      return true
+    else
+      return false
+    end
   end
 
 end

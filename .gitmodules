@@ -51,3 +51,6 @@
   path = rake
   url = git@bitbucket.org:robinrob/rakefile.git
   branch = master
+[submodule "projects/github/rake"]
+	path = projects/github/rake
+	url = git@bitbucket.org:robinrob/rakefile.git
