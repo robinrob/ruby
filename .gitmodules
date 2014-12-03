@@ -6,6 +6,9 @@
   path = projects/bitbucket
   url = git@bitbucket.org:robinrob/bitbucket.git
   branch = master
+[submodule "projects/github/rake"]
+  path = projects/github/rake
+  url = git@bitbucket.org:robinrob/rakefile.git
 [submodule "projects/heroku-s3-backup"]
   path = projects/heroku-s3-backup
   url = git@bitbucket.org:robinrob/heroku-s3-backup.git
@@ -35,6 +38,9 @@
   path = projects/rakefile
   url = git@bitbucket.org:robinrob/rakefile.git
   branch = master
+[submodule "projects/rakelib"]
+  path = projects/rakelib
+  url = git@bitbucket.org:robinrob/rakelib.git
 [submodule "projects/rbpassword"]
   path = projects/rbpassword
   url = git@bitbucket.org:robinrob/rbpassword.git
@@ -47,13 +53,6 @@
   path = projects/ruby-app
   url = git@bitbucket.org:robinrob/ruby-app.git
   branch = master
-[submodule "rake"]
-  path = rake
-  url = git@bitbucket.org:robinrob/rakefile.git
-  branch = master
-[submodule "projects/github/rake"]
-	path = projects/github/rake
-	url = git@bitbucket.org:robinrob/rakefile.git
-[submodule "projects/rakelib"]
-	path = projects/rakelib
-	url = git@bitbucket.org:robinrob/rakelib.git
+[submodule "rakelib"]
+  path = rakelib
+  url = git@bitbucket.org:robinrob/rakelib.git
