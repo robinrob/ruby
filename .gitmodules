@@ -23,10 +23,6 @@
 [submodule "projects/local"]
   path = projects/local
   url = git@bitbucket.org:robinrob/local.git
-[submodule "projects/mrrobinsmith.com"]
-  path = projects/mrrobinsmith.com
-  url = git@bitbucket.org:robinrob/mrrobinsmith.com.git
-  branch = master
 [submodule "projects/quiz"]
   path = projects/quiz
   url = git@bitbucket.org:robinrob/quiz.git
@@ -49,6 +45,9 @@
   path = projects/rcsv
   url = git@bitbucket.org:robinrob/rcsv.git
   branch = master
+[submodule "projects/robinrob.github.io"]
+  path = projects/robinrob.github.io
+  url = git@github.com:robinrob/robinrob.github.io.git
 [submodule "projects/ruby-app"]
   path = projects/ruby-app
   url = git@bitbucket.org:robinrob/ruby-app.git
