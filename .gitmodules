@@ -1,57 +1,57 @@
 [submodule "projects/aws-backup-manager"]
   path = projects/aws-backup-manager
-  url = git@bitbucket.org:robinrob/aws-backup-manager.git
+  url = git@github.com:robinrob/aws-backup-manager.git
   branch = master
 [submodule "projects/bitbucket"]
   path = projects/bitbucket
-  url = git@bitbucket.org:robinrob/bitbucket.git
+  url = git@github.com:robinrob/bitbucket.git
   branch = master
 [submodule "projects/heroku-s3-backup"]
   path = projects/heroku-s3-backup
-  url = git@bitbucket.org:robinrob/heroku-s3-backup.git
+  url = git@github.com:robinrob/heroku-s3-backup.git
 [submodule "projects/kitchenplan"]
   path = projects/kitchenplan
-  url = git@bitbucket.org:robinrob/kitchenplan.git
+  url = git@github.com:robinrob/kitchenplan.git
   branch = master
 [submodule "projects/last"]
   path = projects/last
-  url = git@bitbucket.org:robinrob/last.git
+  url = git@github.com:robinrob/last.git
   branch = master
 [submodule "projects/local"]
   path = projects/local
-  url = git@bitbucket.org:robinrob/local.git
+  url = git@github.com:robinrob/local.git
 [submodule "projects/quiz"]
   path = projects/quiz
-  url = git@bitbucket.org:robinrob/quiz.git
+  url = git@github.com:robinrob/quiz.git
   branch = master
 [submodule "projects/rails4-bootstrap3"]
   path = projects/rails4-bootstrap3
-  url = git@bitbucket.org:robinrob/rails-bootstrap.git
+  url = git@github.com:robinrob/rails-bootstrap.git
 [submodule "projects/rakefile"]
   path = projects/rakefile
-  url = git@bitbucket.org:robinrob/rakefile.git
+  url = git@github.com:robinrob/rakefile.git
   branch = master
 [submodule "projects/rakelib"]
   path = projects/rakelib
-  url = git@bitbucket.org:robinrob/rakelib.git
+  url = git@github.com:robinrob/rakelib.git
 [submodule "projects/rbpassword"]
   path = projects/rbpassword
-  url = git@bitbucket.org:robinrob/rbpassword.git
+  url = git@github.com:robinrob/rbpassword.git
   branch = master
 [submodule "projects/rcsv"]
   path = projects/rcsv
-  url = git@bitbucket.org:robinrob/rcsv.git
+  url = git@github.com:robinrob/rcsv.git
   branch = master
 [submodule "projects/robinrob.github.io"]
   path = projects/robinrob.github.io
   url = git@github.com:robinrob/robinrob.github.io.git
 [submodule "projects/ruby-app"]
   path = projects/ruby-app
-  url = git@bitbucket.org:robinrob/ruby-app.git
+  url = git@github.com:robinrob/ruby-app.git
   branch = master
 [submodule "rakelib"]
   path = rakelib
-  url = git@bitbucket.org:robinrob/rakelib.git
+  url = git@github.com:robinrob/rakelib.git
 [submodule "projects/github"]
 	path = projects/github
-	url = git@github.com:robinrob/githut
+	url = git@github.com:robinrob/github
