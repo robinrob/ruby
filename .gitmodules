@@ -29,10 +29,6 @@
 [submodule "projects/rakelib"]
   path = projects/rakelib
   url = git@github.com:robinrob/rakelib.git
-[submodule "projects/rbpassword"]
-  path = projects/rbpassword
-  url = git@github.com:robinrob/rbpassword.git
-  branch = master
 [submodule "projects/rcsv"]
   path = projects/rcsv
   url = git@github.com:robinrob/rcsv.git
