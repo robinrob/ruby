@@ -16,10 +16,6 @@
   path = projects/kitchenplan
   url = git@github.com:robinrob/kitchenplan.git
   branch = master
-[submodule "projects/last"]
-  path = projects/last
-  url = git@github.com:robinrob/last.git
-  branch = master
 [submodule "projects/local"]
   path = projects/local
   url = git@github.com:robinrob/local.git
