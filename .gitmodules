@@ -26,10 +26,6 @@
 [submodule "projects/rails4-bootstrap3"]
   path = projects/rails4-bootstrap3
   url = git@github.com:robinrob/rails-bootstrap.git
-[submodule "projects/rakefile"]
-  path = projects/rakefile
-  url = git@github.com:robinrob/rakefile.git
-  branch = master
 [submodule "projects/rakelib"]
   path = projects/rakelib
   url = git@github.com:robinrob/rakelib.git
