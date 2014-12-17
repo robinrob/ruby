@@ -21,7 +21,7 @@
   branch = master
 [submodule "projects/rails4-bootstrap3"]
   path = projects/rails4-bootstrap3
-  url = git@github.com:robinrob/rails-bootstrap.git
+  url = git@github.com:robinrob/rails4-bootstrap3.git
 [submodule "projects/rakelib"]
   path = projects/rakelib
   url = git@github.com:robinrob/rakelib.git
