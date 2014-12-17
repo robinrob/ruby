@@ -1,7 +1,3 @@
-[submodule "projects/aws-backup-manager"]
-  path = projects/aws-backup-manager
-  url = git@github.com:robinrob/aws-backup-manager.git
-  branch = master
 [submodule "projects/bitbucket"]
   path = projects/bitbucket
   url = git@github.com:robinrob/bitbucket.git
