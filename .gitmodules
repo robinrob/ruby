@@ -3,8 +3,8 @@
   url = git@github.com:robinrob/bitbucket.git
   branch = master
 [submodule "projects/github"]
-	path = projects/github
-	url = git@github.com:robinrob/github.git
+  path = projects/github
+  url = git@github.com:robinrob/github.git
 [submodule "projects/heroku-s3-backup"]
   path = projects/heroku-s3-backup
   url = git@github.com:robinrob/heroku-s3-backup.git
@@ -28,6 +28,3 @@
 [submodule "projects/robinrob.github.io"]
   path = projects/robinrob.github.io
   url = git@github.com:robinrob/robinrob.github.io.git
-[submodule "rakelib"]
-  path = rakelib
-  url = git@github.com:robinrob/rakelib.git
