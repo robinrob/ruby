@@ -126,10 +126,12 @@ puts
 
 Log.cyan "(?<=) - Positive look-behind:"
 Log.put "'Robin Smith'.match(/(?<=m)i.*/)"
+Log.maganda "I.e. this pattern is behind it."
 puts
 
 Log.cyan "(?<!) - Negative look-behind:"
 Log.put "'Robin Smith'.match(/(?<!b)i.*/)"
+Log.maganda "I.e. this pattern is NOT behind it."
 puts
 
 Log.cyan "() Grouping of sub-expressions:"
