@@ -22,12 +22,9 @@
 [submodule "projects/rails4-bootstrap3"]
   path = projects/rails4-bootstrap3
   url = git@github.com:robinrob/rails4-bootstrap3.git
-[submodule "projects/rakelib"]
-  path = projects/rakelib
-  url = git@github.com:robinrob/rakelib.git
+[submodule "projects/robinrob.github.io"]
+  path = projects/robinrob.github.io
+  url = git@github.com:robinrob/robinrob.github.io.git
 [submodule "projects/robinrob.github.io-dev"]
   path = projects/robinrob.github.io-dev
   url = git@github.com:robinrob/robinrob.github.io.git-dev
-[submodule "projects/robinrob.github.io"]
-  path = projects/robinrob.github.io
-  url = git@githb.com:robinrob/robinrob.github.io.git
