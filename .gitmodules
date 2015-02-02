@@ -26,5 +26,5 @@
   path = projects/robinrob.github.io
   url = git@github.com:robinrob/robinrob.github.io.git
 [submodule "projects/robinrob.github.io-dev"]
-  path = projects/robinrob.github.io-dev
-  url = git@github.com:robinrob/robinrob.github.io.git-dev
+	path = projects/robinrob.github.io-dev
+	url = git@github.com:robinrob/robinrob.github.io-dev.git
