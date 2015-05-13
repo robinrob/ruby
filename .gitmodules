@@ -28,3 +28,6 @@
 [submodule "projects/robinrob.github.io-dev"]
   path = projects/robinrob.github.io-dev
   url = git@github.com:robinrob/robinrob.github.io.git-dev
+[submodule "projects/rss"]
+	path = projects/rss
+	url = git@github.com:robinrob/rss.git
