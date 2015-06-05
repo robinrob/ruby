@@ -2,7 +2,7 @@
 
 $LOAD_PATH << '.'
 
-require 'lib/log.rb'
+require "#{ENV['RUBY_HOME']}/lib/log.rb"
 
 
 Log.cyan "^ - Beginning of line or string:"

@@ -31,3 +31,6 @@
 [submodule "projects/rss"]
 	path = projects/rss
 	url = git@github.com:robinrob/rss.git
+[submodule "projects/mrrobinsmith.com-rails"]
+	path = projects/mrrobinsmith.com-rails
+	url = git@github.com:robinrob/mrrobinsmith.com-rails.git
