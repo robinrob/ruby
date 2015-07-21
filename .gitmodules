@@ -9,8 +9,8 @@
   path = projects/heroku-s3-backup
   url = git@github.com:robinrob/heroku-s3-backup.git
 [submodule "projects/jekyll-gulp-haml-sass-browsersync"]
-	path = projects/jekyll-gulp-haml-sass-browsersync
-	url = git@github.com:robinrob/jekyll-gulp-haml-sass-browsersync.git
+  path = projects/jekyll-gulp-haml-sass-browsersync
+  url = git@github.com:robinrob/jekyll-gulp-haml-sass-browsersync.git
 [submodule "projects/kitchenplan"]
   path = projects/kitchenplan
   url = git@github.com:robinrob/kitchenplan.git
