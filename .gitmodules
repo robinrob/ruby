@@ -15,9 +15,6 @@
   path = projects/kitchenplan
   url = git@github.com:robinrob/kitchenplan.git
   branch = master
-[submodule "projects/local"]
-  path = projects/local
-  url = git@github.com:robinrob/local.git
 [submodule "projects/mrrobinsmith.com-rails"]
   path = projects/mrrobinsmith.com-rails
   url = git@github.com:robinrob/mrrobinsmith.com-rails.git
@@ -28,6 +25,9 @@
 [submodule "projects/rails4-bootstrap3"]
   path = projects/rails4-bootstrap3
   url = git@github.com:robinrob/rails4-bootstrap3.git
+[submodule "projects/recipes-server"]
+  path = projects/recipes-server
+  url = git@github.com:robinrob/recipes-server.git
 [submodule "projects/rss-opener"]
   path = projects/rss-opener
   url = git@github.com:robinrob/rss-opener.git
