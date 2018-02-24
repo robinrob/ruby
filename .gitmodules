@@ -2,15 +2,15 @@
   path = projects/bitbucket
   url = git@github.com:robinrob/bitbucket.git
   branch = master
+[submodule "projects/freeagent-test"]
+	path = projects/freeagent-test
+	url = git@bitbucket.org:rsmith-io/freeagent-test
 [submodule "projects/github"]
   path = projects/github
   url = git@github.com:robinrob/github.git
 [submodule "projects/heroku-s3-backup"]
   path = projects/heroku-s3-backup
   url = git@github.com:robinrob/heroku-s3-backup.git
-[submodule "projects/jekyll-gulp-haml-sass-browsersync"]
-  path = projects/jekyll-gulp-haml-sass-browsersync
-  url = git@github.com:robinrob/jekyll-gulp-haml-sass-browsersync.git
 [submodule "projects/kitchenplan"]
   path = projects/kitchenplan
   url = git@github.com:robinrob/kitchenplan.git
@@ -19,8 +19,8 @@
   path = projects/mrrobinsmith.com-rails
   url = git@github.com:robinrob/mrrobinsmith.com-rails.git
 [submodule "projects/quiz"]
-  path = projects/quiz
-  url = git@github.com:robinrob/quiz.git
+	path = projects/quiz
+	url = git@github.com:robinrob/quiz
   branch = master
 [submodule "projects/rails4-bootstrap3"]
   path = projects/rails4-bootstrap3
@@ -31,3 +31,9 @@
 [submodule "projects/rss-opener"]
   path = projects/rss-opener
   url = git@github.com:robinrob/rss-opener.git
+[submodule "projects/flickapp-test"]
+	path = projects/flickapp-test
+	url = git@bitbucket.org:rsmith-io/flickapp-test
+[submodule "projects/local"]
+	path = projects/local
+	url = git@github.com:robinrob/local
