@@ -37,3 +37,12 @@
 [submodule "projects/local"]
 	path = projects/local
 	url = git@github.com:robinrob/local
+[submodule "projects/quiz-rails"]
+	path = projects/quiz-rails
+	url = git@github.com:robinrob/quiz-rails
+[submodule "projects/float-test-server"]
+	path = projects/float-test-server
+	url = git@github.com:robinrob/float-test-server
+[submodule "projects/float-test"]
+	path = projects/float-test
+	url = git@github.com:robinrob/float-test
