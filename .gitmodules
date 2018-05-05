@@ -2,7 +2,15 @@
   path = projects/bitbucket
   url = git@github.com:robinrob/bitbucket.git
   branch = master
-
+[submodule "projects/flickapp-test"]
+  path = projects/flickapp-test
+  url = git@bitbucket.org:rsmith-io/flickapp-test
+[submodule "projects/float-test"]
+  path = projects/float-test
+  url = git@github.com:robinrob/float-test
+[submodule "projects/float-test-server"]
+  path = projects/float-test-server
+  url = git@github.com:robinrob/float-test-server
 [submodule "projects/github"]
   path = projects/github
   url = git@github.com:robinrob/github.git
@@ -12,13 +20,19 @@
 [submodule "projects/local"]
   path = projects/local
   url = git@github.com:robinrob/local
+[submodule "projects/local"]
+  path = projects/local
+  url = git@github.com:robinrob/local
 [submodule "projects/mrrobinsmith.com-rails"]
   path = projects/mrrobinsmith.com-rails
   url = git@github.com:robinrob/mrrobinsmith.com-rails.git
 [submodule "projects/quiz"]
-	path = projects/quiz
-	url = git@github.com:robinrob/quiz
+  path = projects/quiz
+  url = git@github.com:robinrob/quiz
   branch = master
+[submodule "projects/quiz-rails"]
+  path = projects/quiz-rails
+  url = git@github.com:robinrob/quiz-rails
 [submodule "projects/rails4-bootstrap3"]
   path = projects/rails4-bootstrap3
   url = git@github.com:robinrob/rails4-bootstrap3.git
@@ -28,18 +42,3 @@
 [submodule "projects/rss-opener"]
   path = projects/rss-opener
   url = git@github.com:robinrob/rss-opener.git
-[submodule "projects/flickapp-test"]
-	path = projects/flickapp-test
-	url = git@bitbucket.org:rsmith-io/flickapp-test
-[submodule "projects/local"]
-	path = projects/local
-	url = git@github.com:robinrob/local
-[submodule "projects/quiz-rails"]
-	path = projects/quiz-rails
-	url = git@github.com:robinrob/quiz-rails
-[submodule "projects/float-test-server"]
-	path = projects/float-test-server
-	url = git@github.com:robinrob/float-test-server
-[submodule "projects/float-test"]
-	path = projects/float-test
-	url = git@github.com:robinrob/float-test
