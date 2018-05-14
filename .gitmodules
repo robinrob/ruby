@@ -5,19 +5,21 @@
 [submodule "projects/flickapp-test"]
   path = projects/flickapp-test
   url = git@bitbucket.org:rsmith-io/flickapp-test
-[submodule "projects/freeagent-test"]
-  path = projects/freeagent-test
-  url = git@bitbucket.org:rsmith-io/freeagent-test
+[submodule "projects/float-test"]
+  path = projects/float-test
+  url = git@github.com:robinrob/float-test
+[submodule "projects/float-test-server"]
+  path = projects/float-test-server
+  url = git@github.com:robinrob/float-test-server
 [submodule "projects/github"]
   path = projects/github
   url = git@github.com:robinrob/github.git
 [submodule "projects/heroku-s3-backup"]
   path = projects/heroku-s3-backup
   url = git@github.com:robinrob/heroku-s3-backup.git
-[submodule "projects/kitchenplan"]
-  path = projects/kitchenplan
-  url = git@github.com:robinrob/kitchenplan.git
-  branch = master
+[submodule "projects/local"]
+  path = projects/local
+  url = git@github.com:robinrob/local
 [submodule "projects/local"]
   path = projects/local
   url = git@github.com:robinrob/local
@@ -28,6 +30,9 @@
   path = projects/quiz
   url = git@github.com:robinrob/quiz
   branch = master
+[submodule "projects/quiz-rails"]
+  path = projects/quiz-rails
+  url = git@github.com:robinrob/quiz-rails
 [submodule "projects/rails4-bootstrap3"]
   path = projects/rails4-bootstrap3
   url = git@github.com:robinrob/rails4-bootstrap3.git
