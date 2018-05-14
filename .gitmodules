@@ -37,3 +37,6 @@
 [submodule "projects/rss-opener"]
   path = projects/rss-opener
   url = git@github.com:robinrob/rss-opener.git
+[submodule "projects/remote-jobs"]
+	path = projects/remote-jobs
+	url = git@github.com:robinrob/remote-jobs
